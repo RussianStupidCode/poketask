@@ -6,7 +6,7 @@ import { fileURLToPath, URL } from "url";
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: "/",
+  base: "/poketask",
   resolve: {
     alias: [
       {
