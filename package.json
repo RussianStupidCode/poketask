@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.1",
   "type": "module",
-  "homepage": ".",
+  "homepage": "./poketask",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build && node ./scripts/copy.js",
