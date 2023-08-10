@@ -5,4 +5,4 @@
 ## запуск локально
 
 - yarn install
-- yarn start dev
+- yarn dev
