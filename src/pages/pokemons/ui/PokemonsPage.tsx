@@ -12,7 +12,7 @@ const Root = styled.div`
 `;
 
 const PokemonsPage = (): JSX.Element => {
-  const countInPage = 10;
+  const countInPage = 20;
 
   const [offset, setOffset] = useState(0);
 
