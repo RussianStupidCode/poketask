@@ -127,7 +127,7 @@ See https://reactjs.org/docs/forms.html#controlled-components`),j=C.initialPage?
   display: flex;
   flex-direction: column;
   gap: 5px;
-`,Yw=()=>{const[t,n]=P.useState(0),{data:r,isLoading:o}=D1(10,t),i=s=>{n(s)},l=P.useCallback(s=>{const a=s.url.slice(0,s.url.length-1),u=a.slice(a.lastIndexOf("/")+1);return`/pokemons/${Number(u)}`},[]);return o||!r?b.jsxs(Af,{children:[b.jsx("h1",{children:"Покемоны"}),b.jsx("div",{children:"Loading..."})]}):b.jsxs(Af,{children:[b.jsx("h1",{children:"Покемоны"}),b.jsx(Ww,{pokemons:r.results,createLinkUrl:l}),b.jsx(Gw,{limit:10,offset:t,count:r.count,onPageChange:i})]})},Jw=It.div`
+`,Yw=()=>{const[t,n]=P.useState(0),{data:r,isLoading:o}=D1(20,t),i=s=>{n(s)},l=P.useCallback(s=>{const a=s.url.slice(0,s.url.length-1),u=a.slice(a.lastIndexOf("/")+1);return`/pokemons/${Number(u)}`},[]);return o||!r?b.jsxs(Af,{children:[b.jsx("h1",{children:"Покемоны"}),b.jsx("div",{children:"Loading..."})]}):b.jsxs(Af,{children:[b.jsx("h1",{children:"Покемоны"}),b.jsx(Ww,{pokemons:r.results,createLinkUrl:l}),b.jsx(Gw,{limit:20,offset:t,count:r.count,onPageChange:i})]})},Jw=It.div`
   display: flex;
   flex-direction: row;
   gap: 5px;
