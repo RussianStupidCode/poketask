@@ -1,11 +1,11 @@
 import { RoutesView } from "@/pages";
-import { BrowserRouter } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
 
 const App = (): JSX.Element => {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <RoutesView />{" "}
-    </BrowserRouter>
+    </HashRouter>
   );
 };
 
