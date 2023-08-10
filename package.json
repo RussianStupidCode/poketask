@@ -3,6 +3,7 @@
   "private": false,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://russianstupidcode.github.io/poketask",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build && node ./scripts/copy.js",
